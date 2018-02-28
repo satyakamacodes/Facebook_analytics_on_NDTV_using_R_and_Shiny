@@ -1,0 +1,14 @@
+This project is a visual and NLP based interactive analytics to understand what NDTV
+shares in facebeeok in terms of posts, images, and videos; and how its followers/subscribers
+react to such postings. It consists of two modules:
+
+PART 1: is where NDTV's facebook posts are fetched using the Rfacebook package.
+The script used in fetching the data is named "ndtv_getPage.R"
+The data fetched from script is saved as "ndtvpage.rds"
+
+Please fill in your app_id and app_secret in the fields marked XXXX.
+
+PART 2: The shiny scripts are ui.R and server.R
+Please set the appropriate paths for the readRDS() and the scan() functions.
+
+positive.csv and negative.csv are repository of positive and negative sentiment words.
